@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 5px solid #1d1e4c;
+}
+
+.content {
+    max-width: 800px;
+    margin:0 auto;
+}
+
+.header {
+    margin-top: 30px;
+}
+
+.first-last {
+    margin-top: 20px;
+    text-align: center;
+    height:auto;
+    width: auto;
+    font-family:Arial;
+}
+
+
+span{
+    margin-right: 10px;
+    float: left;
+}
+
+/* .email {
+    margin: auto;
+} */
+div.newsection {
+    display:block;
+}
+div.namedetails{
+    /* position: relative;
+    padding: 20px;
+    align-content: center;
+    display:block;
+    font-family:Arial; */
+    padding: 20px;
+    height:auto;
+    display:block;
+    width:auto;
+}
+
+/* .hr {
+    background-color: red; height: 1px; border: 0;
+} */
+.email {
+    /* position:relative; */
+    padding: 20px;
+    width: auto;
+    height:auto;
+    float:left;
+    grid-row:span;
+    font-family:Arial;
+    display: flex;
+    flex-direction: row;
+    
+}
+.linkedin {
+    /* position:relative; */
+    padding: 20px;
+    width:auto;
+    height:auto;
+    float:left;
+    font-family:Arial;
+    display: flex;
+    flex-direction: row;
+
+}
+.phone {
+    /* position:relative; */
+    padding: 20px;
+    width: auto;
+    height:auto;
+    float:left;
+    font-family:Arial;
+    display: flex;
+    flex-direction: row;
+
+}
+
+hr {
+    color:brown;
+    margin: 1px;
+}
+
+p.sectiontitle {
+    margin: 2px;
+    font-size:larger;
+    font-family:Arial;
+    display:block;
+    font-weight: bold;
+}
+p.sectiontitle-2 {
+    margin: 2px;
+    font-size:medium;
+    /* font-family:Arial; */
+}
+ul.ulclass {
+    margin: 4px;
+    padding-left: 25px;
+    /* font-family:Arial; */
+} 
+newsection {
+    clear: both;
+    display:block;
+}
+
